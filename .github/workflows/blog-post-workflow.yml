@@ -1,23 +1,40 @@
-import feedparser, time
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
 
-blog_url = "https://cookie-dev.tistory.com/rss"
-rss_feed = feedparser.parse(blog_url)
+name: Python application
 
-MAX_NUM = 5
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  schedule:
+      - cron: "0 0 */1 * *"
 
-latest_posts = ""
+jobs:
+  build:
 
-for idx, entrie in enumerate(rss_feed['entries']):
-  if idx > MAX_NUM:
-     break;
-  feed_date = entrie['published_parsed']
-  latest_posts += f" - [{time.strftime('%Y/%m/%d', feed_date)} - {entrie['title']}]({entrie['link']})\n"
+    runs-on: ubuntu-latest
 
-preREADME = """
-## 기존의 README.md 내용
-"""
-
-resultREADME = f"{preREADME}{latest_posts}"
-
-with open("README.md", "w", encoding='utf-8') as f :
-  f.write(resultREADME)
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.10"
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install feedparser
+    - name: Run Update Python Script
+      run: |
+        python main.py
+    - name: Update README.md file
+      run: | 
+        git pull
+        git add .
+        git diff
+        git config --local user.email "corojoon93@naver.com"
+        git config --local user.name "korjun1993"
+        git commit -m "Updating Blog Posts"
+        git push
