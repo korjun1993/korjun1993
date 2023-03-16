@@ -1,14 +1,23 @@
-name: Latest blog post workflow
-on:
-  schedule: # workflow 자동화 스케쥴 설정
-    - cron: "0 * * * *" # https://crontab.guru/ cron 스케쥴 보는법
-  workflow_dispatch: # 수동으로 workflow 시작할수 있도록 하는 옵션
-jobs:
-  update-readme-with-blog:
-    name: Update this repo's README with latest blog posts
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: gautamkrishnar/blog-post-workflow@master
-        with:
-          feed_list: "https://cookie-dev.tistory.com/rss"
+import feedparser, time
+
+blog_url = "https://cookie-dev.tistory.com/rss"
+rss_feed = feedparser.parse(blog_url)
+
+MAX_NUM = 5
+
+latest_posts = ""
+
+for idx, entrie in enumerate(rss_feed['entries']):
+  if idx > MAX_NUM:
+     break;
+  feed_date = entrie['published_parsed']
+  latest_posts += f" - [{time.strftime('%Y/%m/%d', feed_date)} - {entrie['title']}]({entrie['link']})\n"
+
+preREADME = """
+## 기존의 README.md 내용
+"""
+
+resultREADME = f"{preREADME}{latest_posts}"
+
+with open("README.md", "w", encoding='utf-8') as f :
+  f.write(resultREADME)
