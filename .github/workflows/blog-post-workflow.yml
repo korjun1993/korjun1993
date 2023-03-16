@@ -1,40 +1,14 @@
-# This workflow will install Python dependencies, run tests and lint with a single version of Python
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
-
-name: Python application
-
+name: Latest blog post workflow
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-  schedule:
-      - cron: "0 0 */1 * *"
-
+  schedule: # workflow 자동화 스케쥴 설정
+    - cron: "0 * * * *" # https://crontab.guru/ cron 스케쥴 보는법
+  workflow_dispatch: # 수동으로 workflow 시작할수 있도록 하는 옵션
 jobs:
-  build:
-
+  update-readme-with-blog:
+    name: Update this repo's README with latest blog posts
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v3
-    - name: Set up Python 3.10
-      uses: actions/setup-python@v3
-      with:
-        python-version: "3.10"
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install feedparser
-    - name: Run Update Python Script
-      run: |
-        python update-blog-post.py
-    - name: Update README.md file
-      run: | 
-        git pull
-        git add .
-        git diff
-        git config --local user.email "corojoon93@naver.com"
-        git config --local user.name "korjun1993"
-        git commit -m "Updating Blog Posts"
-        git push
+      - uses: actions/checkout@v3
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          feed_list: "블로그 RSS feed URL"
