@@ -19,9 +19,9 @@ I'm backend developer.
 
 ### 📖 Recent Article
 <!-- BLOG-POST-LIST:START -->
+- [4장. 커넥션](https://cookie-dev.tistory.com/11)
 - [Security Filter 는 @Bean 으로 등록하지 말자](https://cookie-dev.tistory.com/10)
 - [1장. HTTP 개관](https://cookie-dev.tistory.com/9)
 - [GitHub 커밋이 대시보드에 반영되지 않을 때](https://cookie-dev.tistory.com/8)
 - [[F-lab] 7주차 멘토링 회고](https://cookie-dev.tistory.com/7)
-- [[F-lab] 6주차 멘토링 회고](https://cookie-dev.tistory.com/6)
 <!-- BLOG-POST-LIST:END -->
