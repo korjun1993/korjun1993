@@ -19,9 +19,9 @@ I'm backend developer.
 
 ### 📖 Recent Article
 <!-- BLOG-POST-LIST:START -->
+- [NHN 엔터프라이즈 개발자 면접 후기 - T인터뷰편](https://cookie-dev.tistory.com/15)
 - [운영 환경과 개발 환경의 application.yml 을 분리하자 &lpar;feat. Jasypt&rpar;](https://cookie-dev.tistory.com/13)
 - [함수형 프로그래밍을 재고 처리 로직에 적용해보기](https://cookie-dev.tistory.com/12)
 - [4장. 커넥션](https://cookie-dev.tistory.com/11)
 - [Security Filter 는 @Bean 으로 등록하지 말자](https://cookie-dev.tistory.com/10)
-- [1장. HTTP 개관](https://cookie-dev.tistory.com/9)
 <!-- BLOG-POST-LIST:END -->
