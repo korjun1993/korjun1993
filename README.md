@@ -19,9 +19,9 @@ I'm backend developer.
 
 ### 📖 Recent Article
 <!-- BLOG-POST-LIST:START -->
+- [CI/CD 파이프라인 구축&lpar;1&rpar; [Spring Boot, Jenkins, Naver Cloud]](https://cookie-dev.tistory.com/19)
 - [디지털 청년 고민 해결단 멘토링 후기 with 향로님](https://cookie-dev.tistory.com/17)
 - [NHN 엔터프라이즈 개발자 면접 후기 -  C인터뷰편](https://cookie-dev.tistory.com/16)
 - [NHN 엔터프라이즈 개발자 면접 후기 - T인터뷰편](https://cookie-dev.tistory.com/15)
 - [운영 환경과 개발 환경의 application.yml 을 분리하자 &lpar;feat. Jasypt&rpar;](https://cookie-dev.tistory.com/13)
-- [함수형 프로그래밍을 재고 처리 로직에 적용해보기](https://cookie-dev.tistory.com/12)
 <!-- BLOG-POST-LIST:END -->
