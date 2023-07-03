@@ -19,9 +19,9 @@ I'm backend developer.
 
 ### 📖 Recent Article
 <!-- BLOG-POST-LIST:START -->
+- [롤문철 닷컴 구현기 2탄: 로그인 기능 구현](https://cookie-dev.tistory.com/23)
 - [CI/CD 파이프라인 구축&lpar;3&rpar; [Spring Boot, Jenkins, Naver Cloud] - Jenkins, Webhook을 활용한 자동 배포](https://cookie-dev.tistory.com/21)
 - [CI/CD 파이프라인 구축&lpar;2&rpar; [Spring Boot, Jenkins, Naver Cloud] - 테스트 커버리지를 강제하는 CI 파이프라인 구축](https://cookie-dev.tistory.com/20)
 - [CI/CD 파이프라인 구축&lpar;1&rpar; [Spring Boot, Jenkins, Naver Cloud] - CI/CD의 개념](https://cookie-dev.tistory.com/19)
 - [디지털 청년 고민 해결단 멘토링 후기 with 향로님](https://cookie-dev.tistory.com/17)
-- [NHN 엔터프라이즈 개발자 면접 후기 -  C인터뷰편](https://cookie-dev.tistory.com/16)
 <!-- BLOG-POST-LIST:END -->
