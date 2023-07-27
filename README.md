@@ -19,9 +19,9 @@ I'm backend developer.
 
 ### 📖 Recent Article
 <!-- BLOG-POST-LIST:START -->
+- [Springboot Application 실행하기 &lpar;Manifest, Jar, BootJar 개념 짚기&rpar;](https://cookie-dev.tistory.com/28)
 - [연결리스트 vs 배열리스트 선택하기 &lpar;+성능 향상 사례&rpar;](https://cookie-dev.tistory.com/27)
 - [롤문철 닷컴 구현기 2탄: 로그인 기능 구현](https://cookie-dev.tistory.com/23)
 - [CI/CD 파이프라인 구축&lpar;3&rpar; [Spring Boot, Jenkins, Naver Cloud] - Jenkins, Webhook을 활용한 자동 배포](https://cookie-dev.tistory.com/21)
 - [CI/CD 파이프라인 구축&lpar;2&rpar; [Spring Boot, Jenkins, Naver Cloud] - 테스트 커버리지를 강제하는 CI 파이프라인 구축](https://cookie-dev.tistory.com/20)
-- [CI/CD 파이프라인 구축&lpar;1&rpar; [Spring Boot, Jenkins, Naver Cloud] - CI/CD의 개념](https://cookie-dev.tistory.com/19)
 <!-- BLOG-POST-LIST:END -->
