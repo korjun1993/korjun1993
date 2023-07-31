@@ -19,9 +19,9 @@ I'm backend developer.
 
 ### 📖 Recent Article
 <!-- BLOG-POST-LIST:START -->
+- [동시성 이슈 해결 2탄 - DB 레벨 동시성 이슈 &lpar;MySQL Lock, 낙관적락, 비관적락&rpar;](https://cookie-dev.tistory.com/30)
 - [동시성 이슈 해결 1탄 -  코드 레벨 동시성 이슈 &lpar;Synchronized, Atomic&rpar;](https://cookie-dev.tistory.com/29)
 - [Springboot Application 실행하기 &lpar;Manifest, Jar, BootJar 개념 짚기&rpar;](https://cookie-dev.tistory.com/28)
 - [연결리스트 vs 배열리스트 선택하기 &lpar;+성능 향상 사례&rpar;](https://cookie-dev.tistory.com/27)
 - [롤문철 닷컴 구현기 2탄: 로그인 기능 구현 &lpar;JWT vs Session&rpar;](https://cookie-dev.tistory.com/23)
-- [CI/CD 파이프라인 구축&lpar;3&rpar; [Spring Boot, Jenkins, Naver Cloud] - Jenkins, Webhook을 활용한 자동 배포](https://cookie-dev.tistory.com/21)
 <!-- BLOG-POST-LIST:END -->
