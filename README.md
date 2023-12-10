@@ -19,9 +19,9 @@ I'm backend developer.
 
 ### 📖 Recent Article
 <!-- BLOG-POST-LIST:START -->
+- [코틀린 확장함수는 언제 사용해야할까?](https://cookie-dev.tistory.com/38)
 - [비동기 처리를 위한 RabbitMQ 알아보기](https://cookie-dev.tistory.com/37)
 - [[spring-session-data-redis + JPA] LazyInitializationException 발생 원인 분석](https://cookie-dev.tistory.com/35)
 - [[MySQL] 순위 조회 쿼리 성능 개선하기 &lpar;인덱스, 실행계획&rpar;](https://cookie-dev.tistory.com/31)
 - [동시성 이슈 해결 2탄 - DB 레벨 동시성 이슈 &lpar;MySQL Lock, 낙관적락, 비관적락&rpar;](https://cookie-dev.tistory.com/30)
-- [동시성 이슈 해결 1탄 -  코드 레벨 동시성 이슈 &lpar;Synchronized, Atomic&rpar;](https://cookie-dev.tistory.com/29)
 <!-- BLOG-POST-LIST:END -->
